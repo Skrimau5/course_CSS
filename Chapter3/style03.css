@@ -1,6 +1,9 @@
 /*Chapter3 - 1*/
 #section-number1 {
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #section-number1 > div {
@@ -9,6 +12,10 @@
 
 #post-list > li {
   list-style-type: none;
+}
+
+#post-list {
+    padding-right: 40px;
 }
 
 #section-number1 > li > div {
@@ -26,17 +33,18 @@
   width: 90%;
   background-color: rgb(169, 206, 221);
   text-align: center;
+  margin: auto;
 }
 
 .post-wrapper {
   text-align: left;
   background-color: #f5f5f5;
   border-radius: 5px;
+  padding: 50px;
+  margin: 15px;
 }
 
 .post-img {
   width: 100%;
   border-radius: 5px;
 }
-
-/*Chapter3 - 2*/

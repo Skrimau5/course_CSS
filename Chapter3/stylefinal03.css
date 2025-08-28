@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-image: url("https://cdn.pixabay.com/photo/2020/07/23/01/29/books-5430104_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+header nav {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  width: 33%;  
+  display: inline-block;
+  border: 2px solid gray;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+
+#welcome > p {
+  text-align: center;
+  margin-right: 5em;
+  margin-left: 5em;
+}
+
+#form-btn {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 8px;
+}
+
+#catalog-input {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 8px;
+  border: 2px thick solid gray;
+  width: 37.5%;
+}
+
+#staff-picks {
+  text-align: center;
+}
+
+.staff-pick-img {
+  border: 1px thick solid gray;
+  border-radius: 0 7px 7px 0;
+  width: 10em;
+  height: 15em;
+}
