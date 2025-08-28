@@ -1,0 +1,13 @@
+#outer {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+#inner {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSJ8d4Nqh1j5UqCxwipt1pyMfjMMEA8S-dnsLLzv5VbfPqrk3Bpjh_gsT4aLPhRNNRSZ_BzieEVPCpB6mU);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

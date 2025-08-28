@@ -1,0 +1,18 @@
+#invite-wrapper {
+    width: 50%;
+    padding: 25px;
+    background-color: #f00a0a;
+}
+
+#invite-text {
+    width: 80% ;
+}
+
+#itinerary {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
