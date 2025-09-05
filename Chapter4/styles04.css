@@ -9,7 +9,7 @@ header {
   background-color: #492b7c;
   color: #fff;
   border-bottom: 2px solid #313131;
-  position: fixed;
+  position: sticky;
   z-index: 1;
   width: 100%;
 }
@@ -17,7 +17,6 @@ header {
 main {
   position: relative;
   top: 133px;
-
 }
 
 header, h2 {
@@ -50,6 +49,8 @@ footer > p {
 
 section > h2 {
   border-bottom: 0.5px solid grey;
+  position: sticky;
+  top: 133px;
 }
 
 #story-section {
