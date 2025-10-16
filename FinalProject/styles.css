@@ -1,6 +1,5 @@
-header, footer {
+header {
     background-color: #0f0fdd;
-    width: 100%;
     text-align: center;
 }
 
@@ -15,12 +14,6 @@ header, footer {
   display: inline-block;
 }
 
-footer > p {
-    background-color: #0f0fdd;
-    position: relative;
-    right: 45%;
-}
-
 .container {
     display: flex;
     gap: 20px;
@@ -33,10 +26,103 @@ footer > p {
     border: 1px solid #333;
 }
 
+/* resumen */
 #personal-information{
     background-color: #afafb6;
 }
-
 #profesional-information{
     background-color: #afafb6;
 }
+
+/* skills */
+
+.centered-section {
+    position: relative;
+    text-align: center;
+    background-color: #afafb6;
+}
+
+/* form */
+.form-section {
+    background-color: #afafb6;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cuadro-informacion-correo {
+  width: 500px; 
+  height: 15px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  resize: vertical;
+}
+
+.cuadro-indicacion-correo {
+  width: 500px; 
+  height: 250px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  resize: vertical;
+}
+
+/* footer */
+footer {
+    background-color: #0f0fdd;
+    color: white;
+    padding: 20px 40px;
+    margin-top: auto;
+    position: relative;
+    text-align: center;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-left p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 20px;
+    }
+
+    .social-icons a {
+      text-decoration: none;
+      color: white;
+      transition: transform 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+    }
+
+    .social-icons img {
+      width: 30px;
+      height: 30px;
+      filter: brightness(0) invert(1);
+      transition: 0.3s;
+    }
+
+    .social-icons img:hover {
+      filter: brightness(0) invert(0.5) sepia(1) saturate(5) hue-rotate(90deg);
+    }
+
+    @media (max-width: 600px) {
+      .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+      }
+    }
